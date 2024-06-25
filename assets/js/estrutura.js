@@ -17,7 +17,7 @@ function ajustarAlturaLinhavert() {
     var linhas = document.querySelectorAll('.wrapper-linhas-dentro .linha');
     var ultimaLinha = linhas[linhas.length - 1];
     var linhavert = document.querySelector('.linhavert');
-    
+
     if (wrapper && ultimaLinha && linhavert) {
         var alturaWrapper = wrapper.clientHeight;
         var alturaUltimaLinha = ultimaLinha.clientHeight;

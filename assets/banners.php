@@ -18,10 +18,10 @@
 								<p class="conteudo-texto">
 									Com esta chamada, buscamos associações ou cooperativas rurais que desejem melhorar seus processos produtivos e avançar na implementação de práticas de agricultura sustentável, visando o aumento da renda de produtores de baixa renda e a resiliência e sustentabilidade dos sistemas agrícolas.
 								</p>
-								<div class="wrapper-btn">
-									<a class="btn white brownhover" href="agricultura.php"/>Mais informações</a>
-									<a class="btn white brownhover" href="agricultura.php#inscricao"/>Inscrição</a>
-								</div>
+							</div>
+							<div class="wrapper-btn">
+								<a class="btn white brownhover" href="agricultura.php"/>Mais informações</a>
+								<a class="btn white brownhover" href="agricultura.php#inscricao"/>Inscrição</a>
 							</div>
 						</div>
 					</div>
@@ -36,10 +36,10 @@
 								<p class="conteudo-texto">
 									Com esta chamada, buscamos organizações que atuem em ações de promoção do turismo sustentável (urbano ou rural) por meio da articulação de atividades e negócios que preservem seus territórios e valorizem a cultura e patrimônio histórico local, com a finalidade de incrementar a renda das comunidades alcançadas.
 								</p>
-								<div class="wrapper-btn">
-									<a class="btn white brownhover" href="turismo.php"/>Mais informações</a>
-									<a class="btn white brownhover" href="turismo.php#inscricao"/>Inscrição</a>
-								</div>
+							</div>
+							<div class="wrapper-btn">
+								<a class="btn white brownhover" href="turismo.php"/>Mais informações</a>
+								<a class="btn white brownhover" href="turismo.php#inscricao"/>Inscrição</a>
 							</div>
 						</div>
 					</div>

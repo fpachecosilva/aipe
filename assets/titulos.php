@@ -54,7 +54,7 @@
 			echo('
 				<div class="titulos dfsbfe">
 					<div class="wrapper-txts">						
-						<div class="titulo">Mãos unidas,<br class="mob"> mãos à obra</div>
+						<div class="titulo">Chamadas Anteriores</div>
 					</div>					
 				</div>
 			');

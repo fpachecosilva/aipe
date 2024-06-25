@@ -417,7 +417,7 @@ svg.icon {
 }
 .descritivo {
   margin-bottom: 25px;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 800;
   color: var(--secundaria);
   letter-spacing: 2px;
@@ -432,12 +432,15 @@ svg.icon {
   background: linear-gradient(to right, var(--verdebanner) 50%, var(--rosabanner) 50%);
 }
 .banners-home .container {
-  align-items: flex-start;
+  align-items: stretch;
 }
 .banners-home .banner-conteudo {
   padding-top: 70px;
   padding-bottom: 60px;
-  display: flex;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   }
 .banners-home .esq, .banners-home .dir {
   width: 50%;
@@ -472,7 +475,7 @@ svg.icon {
   font-weight: 700;
 }
 .subtitulo-generico {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -698,12 +701,12 @@ section.beneficios .beneficios-wrapper {
   margin-top: 70px;
 }
 section.beneficios .beneficios-txt {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   margin-left: 20px;
 }
 section.beneficios .esq, section.beneficios .dir {
-  gap: 70px;
+  gap: 40px;
   flex-direction: column;
 }
 section.beneficios .esq .beneficios-txt {
@@ -725,16 +728,19 @@ section.criterios .criterios-wrapper .esq {
   width: 38%;
 }
 section.criterios .criterios-wrapper .esq .check {
-  font-size: 40px;
-  padding-bottom: 60px;
+  font-size: 20px;
+  padding-bottom: 30px;
   gap: 22px;
+  font-weight: 600;
 }
 section.criterios .criterios-wrapper .esq .check svg {
-  margin-top: 15px;
+  height: 11px;
+  margin-top: 5px;
 }
 section.criterios .criterios-wrapper .dir {
   flex-direction: column;
   gap: 30px;
+  margin-top: -105px;
 }
 section.criterios .criterios-wrapper .dir img {
   min-width: 750px;
@@ -752,7 +758,7 @@ section.processos .processos-wrapper {
   gap: 30px;  
 }
 section.processos .processos-txt {
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 700;  
 }
 section.processos .esq, section.processos .dir {
@@ -768,13 +774,12 @@ section.processos .dir .processos-txt {
 section.processos .processo {
   border-radius: 20px;
   width: 100%;
-  padding: 50px;  
+  padding: 35px 20px;
   gap: 20px;
-  min-height: 280px;
+  min-height: 230px;
 }
-section.processos .processo svg {
-  margin-top: 5px;
-  height: 40px;
+section.processos .processo svg {  
+  height: 30px;
 }
 section.processos .processo .wrapper-txts {
   overflow: hidden;
@@ -785,6 +790,7 @@ section.processos .processo .wrapper-txts {
 }
 section.processos .processo .texto-generico {
   font-weight: 700;
+  font-size: 18px;
 }
 section.processos-v2 {
   padding: 70px 60px;
@@ -1039,6 +1045,9 @@ section.inscricao .wrapper-btn {
   svg.icon {
     width: 32px;
   }
+  .menu .logo {
+    width: 150px;
+  }
   .logo {
     width: 70px;
   }
@@ -1141,6 +1150,7 @@ section.inscricao .wrapper-btn {
   }
   .banners-home .banner-conteudo .conteudo {
     padding: 30px;
+    padding-bottom: 0;
   }
   .banners-home .conteudo .titulo {
     font-size: 24px;
@@ -1152,6 +1162,11 @@ section.inscricao .wrapper-btn {
   .banners-home .esq, .banners-home .dir {
     width: 100%;
   }
+
+  .banners-home .wrapper-btn {
+    padding: 0 30px 30px;
+  }
+
   .banners-home .conteudo-texto {
     font-size: 18px;
     line-height: 23px;
@@ -1267,7 +1282,7 @@ section.inscricao .wrapper-btn {
   }
   section.criterios .criterios-wrapper .esq .check {
     flex-wrap: nowrap;
-    font-size: 25px;
+    font-size: 20px;
     padding-bottom: 0;
     align-items: center;
   }
@@ -1276,6 +1291,9 @@ section.inscricao .wrapper-btn {
     width: 10px;
     min-width: 10px;
     margin-top: 0;
+  }
+  section.criterios .criterios-wrapper .dir {
+    margin-top: initial;
   }
   section.criterios .criterios-wrapper .dir p {
     padding-left: 0;    
@@ -1298,7 +1316,7 @@ section.inscricao .wrapper-btn {
     gap: 15px;
   }
   section.processos .processo {
-    padding: 27px 35px;
+    padding: 22px 16px;
     flex-wrap: nowrap;
     min-height: initial;
   }
@@ -1307,8 +1325,7 @@ section.inscricao .wrapper-btn {
   }
   section.processos .processos-txt {
     font-size: 25px;
-    max-width: 100%;
-    padding-top: 5px;
+    max-width: 100%;    
   }
 
   section.fundadores {
@@ -1445,7 +1462,13 @@ section.inscricao .wrapper-btn {
   }
 
   #chamadas section.chamadas-negocios .bloco-texto .subtitulo-generico {
-    font-size: 35px;
+    font-size: 25px;
+  }
+  #chamadas section.chamadas-negocios .bloco-texto .texto-generico-30 {
+    font-size: 22px;
+  }
+  #chamadas section.chamadas-negocios .bloco-texto .texto-generico-24 {
+    font-size: 20px;
   }
 
 }

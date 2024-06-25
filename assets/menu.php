@@ -5,7 +5,7 @@
 <nav class="menu dfl">
   <div class="wrapper-menu dfsb container">
     <a href="<? echo ($url) ?>"/>
-      <img class="logo" src="<? echo $images ?>home/logo.svg" alt="">
+      <img class="logo" src="<? echo $images ?>home/logo-topo.svg" alt="">
     </a>
     <ul class="menu-links dfc">
       <li><a class="menuhover <?php echo $paginaAtual == 'Agricultura' ? 'active' : ''; ?>" href="agricultura.php"/>Chamada <strong>Práticas de<br> Agricultura Sustentável</strong></a></li>
