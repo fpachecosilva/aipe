@@ -981,9 +981,18 @@ section.inscricao .wrapper-btn {
 #chamadas section.chamadas-negocios .bloco-texto.mt15 {
   margin-top: 15px;
 }
+#chamadas section.chamadas-negocios .bloco-texto .subtitulo-generico {
+  font-size: 40px;
+}
+#chamadas section.chamadas-negocios .bloco-texto .subtitulo-generico.special {
+  font-size: 30px;
+}
 #chamadas section.chamadas-negocios .bloco-texto .texto-generico-24 {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 700;
+}
+#chamadas section.chamadas-negocios .bloco-texto .texto-generico {
+  font-size: 22px;
 }
 #chamadas section.chamadas-negocios .bloco-texto .texto-generico-30 {
   font-size: 30px;
@@ -1462,12 +1471,18 @@ section.inscricao .wrapper-btn {
   }
 
   #chamadas section.chamadas-negocios .bloco-texto .subtitulo-generico {
+    font-size: 30px;
+  }
+  #chamadas section.chamadas-negocios .bloco-texto .subtitulo-generico.special {
     font-size: 25px;
   }
   #chamadas section.chamadas-negocios .bloco-texto .texto-generico-30 {
     font-size: 22px;
   }
   #chamadas section.chamadas-negocios .bloco-texto .texto-generico-24 {
+    font-size: 20px;
+  }
+  #chamadas section.chamadas-negocios .bloco-texto .texto-generico {
     font-size: 20px;
   }
 

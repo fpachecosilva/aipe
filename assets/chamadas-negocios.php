@@ -6,10 +6,10 @@
 					<p class="subtitulo-generico txtpadrao w600">Impulsionando trabalho no campo com sustentabilidade</p>
 				</div>
 				<div class="bloco-texto">
-					<p class="subtitulo-generico">Negócios Rurais Inclusivos</p>					
+					<p class="subtitulo-generico special">Negócios Rurais Inclusivos</p>					
 				</div>
 				<div class="bloco-texto">
-					<p class="texto-generico-30">Quem participou?</p>
+					<p class="texto-generico-24">Quem participou?</p>
 				</div>
 				<div class="bloco-texto">
 					<p class="texto-generico-24">Organizações intermediárias sem fins lucrativos, associações e cooperativas que apoiam ou implementam atividades rurais inclusivas no Norte e Nordeste do Brasil.</p>
@@ -45,10 +45,10 @@
 					<p class="subtitulo-generico txtazul w600">Gerando trabalho e renda nas periferias</p>
 				</div>
 				<div class="bloco-texto">
-					<p class="subtitulo-generico">Empreendedorismo Urbano Periférico</p>					
+					<p class="subtitulo-generico special">Empreendedorismo Urbano Periférico</p>					
 				</div>
 				<div class="bloco-texto">
-					<p class="texto-generico-30">Quem participou?</p>
+					<p class="texto-generico-24">Quem participou?</p>
 				</div>
 				<div class="bloco-texto">
 					<p class="texto-generico-24">Organizações intermediárias sem fins lucrativos que apoiam nano e microempreendedores individuais localizados em regiões periféricas das capitais e respectivas regiões metropolitanas do Brasil.</p>
