@@ -2,13 +2,17 @@
 	$empresa = 'Aipê';
 	
 	// Local
-	// $url = 'http://localhost/aipe/';
+	$url = 'http://localhost/aipe/';
 	
-	// Server
+	// Site oficial Aipe
+	// $url = 'https://aipe.org.br/';
+
+	// Server Aipe Homologacao
+	// $url = 'https://aipe.org.br/homologacao/';
+
+	// Server Julio
 	// $url = 'http://previewbsagency.com.br/aipe/';
 	
-	// Server Aipe
-	$url = 'https://aipe.org.br/homologacao/';
 
 	$images = $url.'assets/img/';
 	$download = $url.'assets/download/';

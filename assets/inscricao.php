@@ -3,7 +3,7 @@
 		<div class="inscricao-wrapper divs5050 dfl">
 			<div class="esq">
 				<p class="subtitulo-generico">Inscrição</p>
-				<p class="texto-generico">O processo seletivo está aberto até XX de XXXX de 20XX. Acesse o formulário, o roteiro de inscrição e planilhas de atividades em “Apoio a Inscrição” e mande sua proposta.</p>
+				<p class="texto-generico">O processo seletivo está aberto até 21 de agosto de 2024. Acesse o formulário, o roteiro de inscrição e planilhas de atividades em “Apoio a Inscrição” e mande sua proposta.</p>
 				<p class="subtitulo-generico sectop40">A transformação<br> começa agora</p>
 			</div>
 			<div class="dir">
