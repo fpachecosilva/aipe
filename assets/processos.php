@@ -20,7 +20,7 @@
 							<?php if ($paginaAtual == 'Agricultura') { echo 'Formulário'; } elseif ($paginaAtual == 'Turismo') { echo 'Formulário'; } ?>
 						</p>
 						<p class="texto-generico">
-							<?php if ($paginaAtual == 'Agricultura') { echo 'Responda perguntas abertas e fechadas sobre seu projeto e sua organização.'; } elseif ($paginaAtual == 'Turismo') { echo 'Responda perguntas abertas e fechadas sobre seu projeto e sua organização.'; } ?>
+							<?php if ($paginaAtual == 'Agricultura') { echo 'Detalhe informações sobre seu projeto e sua organização. Para iniciar esta etapa você precisará de um e-mail Google*.<p class="txtmenor">*Veja o Roteiro de Inscrição e Dúvidas Frequentes para saber mais.</p>'; } elseif ($paginaAtual == 'Turismo') { echo 'Detalhe informações sobre seu projeto e sua organização. Para iniciar esta etapa você precisará de um e-mail Google*.<p class="txtmenor">*Veja o Roteiro de Inscrição e Dúvidas Frequentes para saber mais.</p>'; } ?>
 						</p>
 					</div>
 				</div>
@@ -59,7 +59,7 @@
 							<?php if ($paginaAtual == 'Agricultura') { echo 'Planejamento'; } elseif ($paginaAtual == 'Turismo') { echo 'Planejamento'; } ?>
 						</p>
 						<p class="texto-generico">
-							<?php if ($paginaAtual == 'Agricultura') { echo 'Apresente um planejamento físico-financeiro com todas as atividades previstas e os recursos necessários (De acordo com modelo disponível em “Apoio para inscrição”.'; } elseif ($paginaAtual == 'Turismo') { echo 'Apresente um planejamento físico-financeiro com todas as atividades previstas e os recursos necessários (De acordo com modelo disponível em “Apoio para inscrição”.'; } ?>
+							<?php if ($paginaAtual == 'Agricultura') { echo 'Apresente um planejamento físico-financeiro com todas as atividades previstas e os recursos necessários (de acordo com modelo disponível em “Apoio para inscrição”).'; } elseif ($paginaAtual == 'Turismo') { echo 'Apresente um planejamento físico-financeiro com todas as atividades previstas e os recursos necessários (de acordo com modelo disponível em “Apoio para inscrição”).'; } ?>
 						</p>
 					</div>
 				</div>

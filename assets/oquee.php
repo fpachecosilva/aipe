@@ -23,7 +23,7 @@
 						</div>
 						<div class="bloco">
 							<p class="subtitulo-generico">Como participar?</p>
-							<p class="texto-generico">As organizações interessadas devem inscrever seus projetos e enviar a documentação pedida até o dia XX/XX, pelo site da AIPÊ.</p>
+							<p class="texto-generico">As organizações interessadas devem inscrever seus projetos e enviar a documentação pedida até o dia 21 de agosto de 2024, pelo site da AIPÊ.</p>
 						</div>
 					';
 				} 
@@ -35,7 +35,7 @@
 						</div>
 						<div class="bloco">
 							<p class="subtitulo-generico">Como participar?</p>
-							<p class="texto-generico">As organizações interessadas devem inscrever seus projetos e enviar a documentação solicitada até o dia XX/XX, pelo site da AIPÊ.</p>
+							<p class="texto-generico">As organizações interessadas devem inscrever seus projetos e enviar a documentação pedida até o dia 21 de agosto de 2024, pelo site da AIPÊ.</p>
 						</div>
 					';
 				} 

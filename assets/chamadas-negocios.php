@@ -12,10 +12,10 @@
 					<p class="texto-generico-24">Quem participou?</p>
 				</div>
 				<div class="bloco-texto quemparticipoutxt">
-					<p class="texto-generico-24">Organizações intermediárias sem fins lucrativos, associações e cooperativas que apoiam ou implementam atividades rurais inclusivas no Norte e Nordeste do Brasil.</p>
+					<p class="texto-generico-24">Organizações intermediárias sem fins lucrativos, associações e cooperativas que apoiam ou implementam atividades rurais inclusivas nas regiões Norte e Nordeste do Brasil.</p>
 				</div>
 				<div class="bloco-texto mt15 textobig">
-					<p class="texto-generico">A AIPÊ investiu quase 4 milhões de reais para apoiar na capacitação, assistência técnica, fortalecimento organizacional, compra de maquinário e insumos em negócios rurais inclusivos  no Norte e Nordeste do Brasil.</p>
+					<p class="texto-generico">Essa chamada está impactando mais de 3.300 pessoas com capacitação, assistência técnica, fortalecimento organizacional, compra de maquinário e insumos em negócios rurais inclusivos no Norte e Nordeste do Brasil.</p>
 				</div>
 
 				<div class="bloco-icones dfl">
@@ -51,10 +51,10 @@
 					<p class="texto-generico-24">Quem participou?</p>
 				</div>
 				<div class="bloco-texto quemparticipoutxt">
-					<p class="texto-generico-24">Organizações intermediárias sem fins lucrativos que apoiam nano e microempreendedores individuais localizados em regiões periféricas das capitais e respectivas regiões metropolitanas do Brasil.</p>
+					<p class="texto-generico-24">Organizações intermediárias sem fins lucrativos que apoiam nano e microempreendedores individuais de regiões periféricas das capitais brasileiras e suas regiões metropolitanas.</p>
 				</div>
 				<div class="bloco-texto mt15 textobig">
-					<p class="texto-generico">Essa chamada pública está impactando mais de mil empreendedores que trabalham nas periferias das grandes cidades do Brasil e suas regiões metropolitanas. O apoio da AIPÊ é revertido em formações, mentorias e capital semente, concedidos pelas organizações intermediárias aos nano e microempreendedores beneficiados em seus projetos.</p>
+					<p class="texto-generico">Essa chamada está impactando mais de mil pessoas que trabalham em periferias e regiões metropolitanas. O apoio da AIPÊ é revertido em formações, mentorias e capital semente para os nano e microempreendedores beneficiados.</p>
 				</div>
 
 				<div class="bloco-icones dfl">
