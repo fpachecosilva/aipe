@@ -10,22 +10,22 @@
 
 					<div class="barra-chamadas">
 						<div class="esq">
-							<a href="agricultura.php" class="btn green brownhover">Participar</a>
+							<a href="https://us06web.zoom.us/j/82669415464?pwd=N1bnRTnblnih7CDHtNqQ8gr6IbAnJv.1" class="btn green brownhover">Participar</a>
 							<p>
 								Práticas de Agricultura Sustentável<br>
 								<strong>
-									<a href="https://us06web.zoom.us/j/82669415464?pwd=N1bnRTnblnih7CDHtNqQ8gr6IbAnJv.1">23/07, 17h às 18h30</a><br>
-									<a href="https://us06web.zoom.us/j/82669415464?pwd=N1bnRTnblnih7CDHtNqQ8gr6IbAnJv.1">13/08, 17h às 18h30</a>
+									23/07, 17h às 18h30<br>
+									13/08, 17h às 18h30
 								</strong>
 							</p>
 						</div>
 						<div class="dir">
-							<a href="turismo.php" class="btn pink brownhover">Participar</a>
+							<a href="https://us06web.zoom.us/j/84978806372?pwd=kR1DCxluNZT0XBbHxzbjJM6hOHmdBN.1" class="btn pink brownhover">Participar</a>
 							<p>
 								Turismo Sustentável<br>
 								<strong>
-									<a href="https://us06web.zoom.us/j/84978806372?pwd=kR1DCxluNZT0XBbHxzbjJM6hOHmdBN.1">23/07, 09 às 10h30</a><br>
-									<a href="https://us06web.zoom.us/j/84978806372?pwd=kR1DCxluNZT0XBbHxzbjJM6hOHmdBN.1">13/08, 09 às 10h30</a>
+									23/07, 09 às 10h30<br>
+									13/08, 09 às 10h30
 								</strong>
 							</p>
 						</div>
@@ -121,6 +121,7 @@
 			margin-top: 26px;
 		}
 		.chamada-topo .barra-chamadas .btn {
+			padding-top: 10px!important;
 			padding: 10px 20px;
 			line-height: 1.2;
 		}
