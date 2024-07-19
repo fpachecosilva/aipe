@@ -14,7 +14,7 @@ Depois acesse o Formulário em “Inscrição”. Será necessário ter um ender
 					
 					<a class="btn white brownhover" href="assets/pdf/<?php if ($paginaAtual == 'Agricultura') { echo 'PAS_Regulamento.pdf'; } elseif ($paginaAtual == 'Turismo') { echo 'TUR_Regulamento.pdf'; } ?>" target="_blank"/>Regulamento</a>
 					
-					<a class="btn white brownhover" href="<?php if ($paginaAtual == 'Agricultura') { echo 'https://drive.google.com/drive/folders/1zsCUWz6kee-ot_qEsf0CWFSnfsy0cGtp?usp=sharing'; } elseif ($paginaAtual == 'Turismo') { echo 'https://drive.google.com/drive/folders/1RLsAqzaZFkBhcnFlj7jno-pBQggB6e5U?usp=sharing'; } ?>" target="_blank"/>Apoio e Documentos para inscrição</a>
+					<a class="btn white brownhover" href="<?php if ($paginaAtual == 'Agricultura') { echo 'https://drive.google.com/drive/folders/1zsCUWz6kee-ot_qEsf0CWFSnfsy0cGtp?usp=sharing'; } elseif ($paginaAtual == 'Turismo') { echo 'https://drive.google.com/drive/folders/1CudYao5ulnSQ8qWxy9j1EDvxEOOAcAwU?usp=sharing'; } ?>" target="_blank"/>Apoio e Documentos para inscrição</a>
 					
 					<a class="btn white brownhover" href="assets/pdf/<?php if ($paginaAtual == 'Agricultura') { echo 'PAS_FAQ.pdf'; } elseif ($paginaAtual == 'Turismo') { echo 'TUR_FAQ.pdf'; } ?>" target="_blank"/>Dúvidas frequentes</a>
 				</div>
