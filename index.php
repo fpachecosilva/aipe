@@ -7,7 +7,7 @@
     <title><? echo $tituloPagina ?></title>
   </head>
 
-  <body id="home">    
+  <body id="home">
     <?php include 'assets/header.php'; ?>
     <?php include 'assets/banners.php'; ?>
     <?php include 'assets/inscrever.php'; ?>

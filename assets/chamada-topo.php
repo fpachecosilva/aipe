@@ -10,23 +10,24 @@
 
 					<div class="barra-chamadas">
 						<div class="esq">
-							<a href="https://us06web.zoom.us/j/82669415464?pwd=N1bnRTnblnih7CDHtNqQ8gr6IbAnJv.1" class="btn green brownhover">Participar</a>
+							<a href="https://us06web.zoom.us/j/81965864864?pwd=eDa0U5hkPftLPQ0ceD1QKjkzwOGYrK.1" class="btn green brownhover">Participar</a>
 							<p>
+								Novo Encontro da Chamada<br>
 								Práticas de Agricultura Sustentável<br>
-								<strong>
-									23/07, 17h às 18h30<br>
-									13/08, 17h às 18h30
+								<strong>									
+									21/08, 17h às 18h30
 								</strong>
 							</p>
 						</div>
 						<div class="dir">
-							<a href="https://us06web.zoom.us/j/84978806372?pwd=kR1DCxluNZT0XBbHxzbjJM6hOHmdBN.1" class="btn pink brownhover">Participar</a>
+							<a href="#" class="btn pink brownhover">Assistir à Gravação</a>
 							<p>
-								Turismo Sustentável<br>
-								<strong>
-									23/07, 09 às 10h30<br>
-									13/08, 09 às 10h30
+								<strong>									
+									Perdeu o encontro da Chamada de Turismo Sustentável?<br>
 								</strong>
+									<a href="#">
+										Assista aqui a gravação!
+									</a>
 							</p>
 						</div>
 					</div>
@@ -65,13 +66,14 @@
 	}
 	.chamada-topo .barra-chamadas {
 		display: flex;
-		gap: 155px;
+		gap: 50px;
 		margin-top: 19px;
 		font-size: 20px;
 	}
 	.chamada-topo .barra-chamadas .esq, .chamada-topo .barra-chamadas .dir {
 		display: flex;
 		gap: 20px;
+		flex: 1;
 	}
 	.chamada-topo .barra-chamadas .esq p, .chamada-topo .barra-chamadas .esq a {
 		color: var(--verdebanner);
@@ -83,6 +85,8 @@
 		padding-top: 8px;
 		line-height: 1.2;
 	}
+	.chamada-topo .barra-chamadas .dir .btn { width: 340px }
+	.chamada-topo .barra-chamadas .dir a:last-child { text-decoration: underline }
 	.chamada-topo .barra-chamadas .btn {
 		transition: all .3s;
 		height: 40px;
@@ -99,6 +103,10 @@
 	.chamada-topo .barra-chamadas .btn.pink {
 		background: var(--rosabanner);
 		color: var(--primaria);
+	}
+
+	.chamada-topo .barra-chamadas .dir {
+		display: none;
 	}
 
 	@media screen and (max-width: 1240px) {
@@ -127,6 +135,10 @@
 		}
 		.chamada-topo .barra-chamadas .esq p, .chamada-topo .barra-chamadas .dir p {
 			font-size: 16px;
+		}
+		.chamada-topo .barra-chamadas .dir .btn { width: initial }
+		.chamada-topo .barra-chamadas .btn {
+			height: fit-content;			
 		}
 	}
 </style>
