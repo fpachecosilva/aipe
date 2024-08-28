@@ -40,7 +40,7 @@
 
 <style>
 	.chamada-topo {
-		position: relative;
+		position: relative;		
 	}
 	.chamada-topo .barra-top {
     background: #ffeedc;
