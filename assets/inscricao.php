@@ -3,7 +3,7 @@
 		<div class="inscricao-wrapper divs5050 dfl">
 			<div class="esq">
 				<p class="subtitulo-generico">Inscrição</p>
-				<p class="texto-generico">O processo seletivo está aberto até 09 de setembro de 2024.
+				<p class="texto-generico">O processo seletivo está aberto até 02 de outubro de 2024.
 Acesse o Roteiro de Inscrição e planilhas de atividades e orçamentária em “Apoio e Documentos para a Inscrição”.
 Depois acesse o Formulário em “Inscrição”. Será necessário ter um endereço de e-mail Google para acessar o formulário.</p>
 				<p class="subtitulo-generico sectop40">A transformação<br> começa agora!</p>

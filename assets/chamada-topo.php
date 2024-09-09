@@ -2,32 +2,32 @@
 	if ( $paginaAtual == 'Home' ) {
 		echo('			
 			<div class="chamada-topo">
-				<div class="container">
-					<div class="barra-top">
-					<div class="barra-top-bg"></div>
-						<p><strong>Quer conhecer mais sobre as chamadas?</strong> Participe dos nossos encontros virtuais.</p>
+				<div class="container">					
+					<div class="barra-top aviso">
+						<p><strong>Inscrições prorrogadas até dia 02/10!</strong> Não perca a oportunidade!</p>
+					</div>
+
+					<div class="barra-top">					
+						<p><strong>Ainda tem dúvidas de como se inscrever?</strong> Participe dos nossos encontros virtuais.</p>
 					</div>
 
 					<div class="barra-chamadas">
 						<div class="esq">
-							<a href="https://us06web.zoom.us/j/81965864864?pwd=eDa0U5hkPftLPQ0ceD1QKjkzwOGYrK.1" class="btn green brownhover">Participar</a>
-							<p>
-								Novo Encontro da Chamada<br>
+							<a href="https://us06web.zoom.us/j/83168323565?pwd=QbCp2LeJZC5xbvLbxDzhs3xNPh7pZf.1" class="btn green brownhover">Participar</a>
+							<p>								
 								Práticas de Agricultura Sustentável<br>
 								<strong>									
-									21/08, 17h às 18h30
+									18/09, 16h às 17h30
 								</strong>
 							</p>
 						</div>
 						<div class="dir">
-							<a href="#" class="btn pink brownhover">Assistir à Gravação</a>
+							<a href="https://us06web.zoom.us/j/83143301177?pwd=lUcegLbXKTpWgi1SGUUqemF1nSoKip.1" class="btn pink brownhover">Participar</a>
 							<p>
+								Turismo Sustentável<br>
 								<strong>									
-									Perdeu o encontro da Chamada de Turismo Sustentável?<br>
-								</strong>
-									<a href="#">
-										Assista aqui a gravação!
-									</a>
+									18/09, 9h às 10h30<br>
+								</strong>									
 							</p>
 						</div>
 					</div>
@@ -47,6 +47,32 @@
     padding: 15px 20px;
     border-radius: 0 0 0 20px;
 		font-size: 20px;
+		position: relative;
+	}
+	.chamada-topo .barra-top.aviso {
+		background: #ea6b79;
+		color: #fff;
+		border-radius: 0;
+	}
+	.chamada-topo .barra-top.aviso p {
+		color: #fff;
+	}
+	.chamada-topo .barra-top::before {
+		content: '';
+		position: absolute;
+		border-radius: 0 0 0 20px;
+    top: 0;
+    left: 0;
+    right: calc(-50vw + 50%);		
+    height: -webkit-fill-available;
+		min-height: 50px;
+    background-color: #ffeedc;
+	}
+	.chamada-topo .barra-top.aviso::before {
+		background: #ea6b79;
+		border-radius: 0;
+		height: -webkit-fill-available;
+		min-height: 50px;
 	}
 	.chamada-topo .barra-top strong {
 		font-weight: 700;
@@ -85,7 +111,7 @@
 		padding-top: 8px;
 		line-height: 1.2;
 	}
-	.chamada-topo .barra-chamadas .dir .btn { width: 340px }
+	/* .chamada-topo .barra-chamadas .dir .btn { width: 340px } */
 	.chamada-topo .barra-chamadas .dir a:last-child { text-decoration: underline }
 	.chamada-topo .barra-chamadas .btn {
 		transition: all .3s;
@@ -105,9 +131,7 @@
 		color: var(--primaria);
 	}
 
-	.chamada-topo .barra-chamadas .dir {
-		display: none;
-	}
+	
 
 	@media screen and (max-width: 1240px) {
 		.chamada-topo .barra-top-bg {
@@ -118,6 +142,7 @@
 	@media screen and (max-width: 768px) {
 		.chamada-topo .barra-top {
 			font-size: 16px;
+			padding-right: 0;
 		}
 		.chamada-topo .barra-top-bg {
 			width: 50px;
