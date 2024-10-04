@@ -4,10 +4,12 @@
 			<div class="chamada-topo">
 				<div class="container">					
 					<div class="barra-top aviso">
+						<span class="bgdabarra"></span>
 						<p><strong>Inscrições prorrogadas até dia 02/10!</strong> Não perca a oportunidade!</p>
 					</div>
 
-					<div class="barra-top">					
+					<div class="barra-top">
+						<span class="bgdabarra"></span>
 						<p><strong>Ainda tem dúvidas de como se inscrever?</strong> Participe dos nossos encontros virtuais.</p>
 					</div>
 
@@ -57,23 +59,21 @@
 	.chamada-topo .barra-top.aviso p {
 		color: #fff;
 	}
-	.chamada-topo .barra-top::before {
-		content: '';
+	.chamada-topo .barra-top .bgdabarra {
 		position: absolute;
 		border-radius: 0 0 0 20px;
     top: 0;
     left: 0;
     right: calc(-50vw + 50%);		
-    height: -webkit-fill-available;
+    height: 100%;
 		min-height: 50px;
+		max-height: 78px;
     background-color: #ffeedc;
 	}
-	.chamada-topo .barra-top.aviso::before {
-		background: #ea6b79;
+	.chamada-topo .barra-top.aviso .bgdabarra {
 		border-radius: 0;
-		height: -webkit-fill-available;
-		min-height: 50px;
-	}
+		background: #ea6b79;
+	}	
 	.chamada-topo .barra-top strong {
 		font-weight: 700;
 	}
@@ -167,16 +167,3 @@
 		}
 	}
 </style>
-
-<script>
-	function ajustarAlturaPseudoElemento() {
-		const barraTop = document.querySelector('.chamada-topo .barra-top');
-		const alturaBarraTop = barraTop.offsetHeight;
-		const barraTopBg = document.querySelector('.chamada-topo .barra-top-bg');
-
-		barraTopBg.style.height = `${alturaBarraTop}px`;
-	}
-
-	document.addEventListener('DOMContentLoaded', ajustarAlturaPseudoElemento);
-	window.addEventListener('resize', ajustarAlturaPseudoElemento);
-</script>

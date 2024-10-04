@@ -1,30 +1,26 @@
 const menuMobile = document.querySelector('#menuToggle input');
 
 menuMobile.addEventListener('click', function () {
-	const menuLinks = document.querySelector('.menu-links');
-	const body = document.querySelector('body');
-	menuLinks.classList.toggle('opened');
-	body.classList.toggle('opened');
+  const menuLinks = document.querySelector('.menu-links');
+  const body = document.querySelector('body');
+  menuLinks.classList.toggle('opened');
+  body.classList.toggle('opened');
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-    ajustarAlturaLinhavert();
-    window.addEventListener('resize', ajustarAlturaLinhavert);
-});
+// controle de active no menu
+document.addEventListener("DOMContentLoaded", function () {
+  const links = document.querySelectorAll('.menu-links a');
+  const targetHash = '#inscrever';
 
-function ajustarAlturaLinhavert() {
-    var wrapper = document.querySelector('.wrapper-linhas-dentro');
-    var linhas = document.querySelectorAll('.wrapper-linhas-dentro .linha');
-    var ultimaLinha = linhas[linhas.length - 1];
-    var linhavert = document.querySelector('.linhavert');
+  links.forEach(link => {
+    if (link.getAttribute('href') === `index.php${targetHash}`) {
+      link.classList.remove('active');
 
-    if (wrapper && ultimaLinha && linhavert) {
-        var alturaWrapper = wrapper.clientHeight;
-        var alturaUltimaLinha = ultimaLinha.clientHeight;
-        var novaAlturaLinhavert = alturaWrapper - alturaUltimaLinha;
-        linhavert.style.height = novaAlturaLinhavert + 'px';
+      if (window.location.hash === targetHash) {
+        link.classList.add('active');
+      }
     }
-}
-
+  });
+});
 
 
