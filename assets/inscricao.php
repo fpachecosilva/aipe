@@ -9,8 +9,8 @@ Depois acesse o Formulário em “Inscrição”. Será necessário ter um ender
 				<p class="subtitulo-generico sectop40">A transformação<br> começa agora!</p>
 			</div>
 			<div class="dir">
-				<div class="wrapper-btn">					
-					<a class="btn brown sechover" href="<?php if ($paginaAtual == 'Agricultura') { echo 'https://forms.gle/qS9WGZEz5VjThZ946'; } elseif ($paginaAtual == 'Turismo') { echo 'https://forms.gle/DL5L6DdubqipWiENA'; } ?>" target="_blank"/>Inscrição</a>
+				<div class="wrapper-btn">	 				
+					<a class="btn disabledbrown" href="#"/>Inscrições encerradas</a>
 					
 					<a class="btn white brownhover" href="assets/pdf/<?php if ($paginaAtual == 'Agricultura') { echo 'PAS_Regulamento.pdf'; } elseif ($paginaAtual == 'Turismo') { echo 'TUR_Regulamento.pdf'; } ?>" target="_blank"/>Regulamento</a>
 					

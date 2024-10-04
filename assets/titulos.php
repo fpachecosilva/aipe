@@ -5,8 +5,8 @@
 			echo('
 				<div class="titulos dfsbfe">
 					<div class="wrapper-txts">
-						<div class="descritivo">INSCRIÇÕES ABERTAS</div>
-						<div class="titulo">Duas novas chamadas públicas. Inscreva-se!</div>
+						<div class="descritivo">INSCRIÇÕES ENCERRADAS</div>
+						<div class="titulo">Confira as chamadas públicas mais recentes.</div>
 					</div>
 					<div class="wrapper-botoes">
 						<a href="#banner-conteudo">
@@ -24,12 +24,11 @@
 			echo('
 				<div class="titulos dfsbfe">
 					<div class="wrapper-txts">
-						<div class="descritivo">CHAMADA PÚBLICA EM ANDAMENTO</div>
+						<div class="descritivo">INSCRIÇÕES ENCERRADASwrapper-linhas-dentro</div>
 						<div class="titulo">Práticas de Agricultura Sustentável</div>
 					</div>
 					<div class="wrapper-btn">
-						<a class="btn brown sechover with-arrow" href="#oquee"/>O que é?</a>
-						<a class="btn brown sechover " href="#inscricao"/>Inscreva-se</a>
+						<a class="btn brown sechover with-arrow" href="#oquee"/>O que é?</a>						
 					</div>
 				</div>
 			');
@@ -39,12 +38,11 @@
 			echo('
 				<div class="titulos dfsbfe">
 					<div class="wrapper-txts">
-						<div class="descritivo">CHAMADA PÚBLICA EM ANDAMENTO</div>
+						<div class="descritivo">INSCRIÇÕES ENCERRADAS</div>
 						<div class="titulo">Turismo Sustentável</div>
 					</div>
 					<div class="wrapper-btn">
-						<a class="btn brown sechover with-arrow" href="#oquee"/>O que é?</a>
-						<a class="btn brown sechover " href="#inscricao"/>Inscreva-se</a>
+						<a class="btn brown sechover with-arrow" href="#oquee"/>O que é?</a>						
 					</div>
 				</div>
 			');

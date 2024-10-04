@@ -149,6 +149,18 @@ article:after {
   background: var(--principal);
   color: var(--secundaria);
 }
+.btn.disabled {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  cursor: not-allowed;
+}
+.btn.disabledbrown {
+  background: transparent;
+  color: var(--principal);
+  border: 2px solid var(--principal);
+  cursor: not-allowed;
+}
 .btn.nocolor {
   padding-left: 0;
 }
@@ -423,7 +435,7 @@ svg.icon {
   letter-spacing: 2px;
 }
 .titulo {
-  font-size: 70px;
+  font-size: 65px;
   font-weight: 700;
   max-width: 75%;
 }
@@ -895,7 +907,7 @@ section.selecao .box-selecao .wrapper-linhas-dentro .linhavert {
   position: absolute;
   width: 2px;
   background: var(--secundaria);
-  height: 100%;
+  height: calc(100% - 50px);
   top: 25px;
   left: 25px;
   z-index: 0;
@@ -1430,8 +1442,8 @@ section.beneficios .beneficios-wrapper .beneficio svg {
   }
   section.selecao .box-selecao .wrapper-linhas .linhavert {
     left: 18px;
-    height: calc(100% - 36px);
-    top: 45px;
+    height: calc(100% - 72px);
+    top: 36px;
   }
   section.selecao .box-selecao .linha-wrapper {
     flex-wrap: nowrap;

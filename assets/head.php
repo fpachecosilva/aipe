@@ -26,7 +26,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-<link type="text/css" rel="stylesheet" href="assets/css/estrutura.css" media="all" />
+
+<script>
+	var randomNumber = Math.floor(Math.random() * (99999 - 10000) + 10000);
+	document.write(' <link type="text/css" rel="stylesheet" href="<?php echo $url ?>assets/css/estrutura.css?v'+randomNumber+'" media="all" /> ')
+</script>
+
+
+<!-- <link type="text/css" rel="stylesheet" href="assets/css/estrutura.css" media="all" /> -->
 
 
 <!-- Google tag (gtag.js) -->

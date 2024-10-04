@@ -21,7 +21,7 @@
 							</div>
 							<div class="wrapper-btn">
 								<a class="btn white brownhover" href="agricultura.php"/>Mais informações</a>
-								<a class="btn white brownhover" href="agricultura.php#inscricao"/>Inscrição</a>
+								<a class="btn disabled" href="#"/>Inscrições encerradas</a>
 							</div>
 						</div>
 					</div>
@@ -39,7 +39,7 @@
 							</div>
 							<div class="wrapper-btn">
 								<a class="btn white brownhover" href="turismo.php"/>Mais informações</a>
-								<a class="btn white brownhover" href="turismo.php#inscricao"/>Inscrição</a>
+								<a class="btn disabled" href="#"/>Inscrições encerradas</a>
 							</div>
 						</div>
 					</div>
