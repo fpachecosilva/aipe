@@ -3,6 +3,8 @@
 		$temaCor = 'verde';
 	} elseif ( $paginaAtual == 'Turismo' ) {
 		$temaCor = 'rosa';
+	} elseif ( $paginaAtual == 'Soluções Socioambientais' ) {
+		$temaCor = 'padrao';
 	}
 ?>
 
@@ -10,8 +12,8 @@
 	<div class="container">
 		<div class="box-selecao">
 			<div class="wrapper-linhas">				
-				<p class="subtitulo-generico">Cronograma e Etapas<br class="mob"> do Processo</p>
-				<p class="subtitulo-espacado">INSCRIÇÕES: 27 DE JUNHO<br class="mob"> A 02 DE OUTUBRO DE 2024</p>
+				<p class="subtitulo-generico">Cronograma</p>
+				<p class="subtitulo-espacado">ETAPAS DO PROCESSO</p>
 
 				<div class="wrapper-linhas-dentro">
 					<div class="linhavert"></div>
@@ -20,10 +22,9 @@
 							<div class="bolinha-numero">
 								<div class="linha-numero">1</div>
 							</div>
-							<div class="textos dflt <?php if ($temaCor == 'verde') { echo 'linhaverde'; } elseif ($temaCor == 'rosa') { echo 'linharosa'; } elseif ($temaCor == 'azul') { echo 'linhaazul'; } elseif ($temaCor == 'padrao') { echo 'linhapadrao'; } ?>">
-								<div class="linha-titulo"><?php if ($paginaAtual == 'Agricultura') { echo 'Inscrições'; } elseif ($paginaAtual == 'Turismo') { echo 'Inscrições'; } ?></div>
-								<div class="linha-secundaria"><?php if ($paginaAtual == 'Agricultura') { echo 'de 27 de junho a 02 de outubro de 2024'; } elseif ($paginaAtual == 'Turismo') { echo 'de 27 de junho a 02 de outubro de 2024'; } ?></div>
-								<!-- <div class="linha-texto"><?php if ($paginaAtual == 'Agricultura') { echo 'de 27 de junho a 21 de agosto de 2024'; } elseif ($paginaAtual == 'Turismo') { echo 'de 27 de junho a 21 de agosto de 2024'; } ?></div> -->
+							<div class="textos dfl <?php if ($temaCor == 'verde') { echo 'linhaverde'; } elseif ($temaCor == 'rosa') { echo 'linharosa'; } elseif ($temaCor == 'azul') { echo 'linhaazul'; } elseif ($temaCor == 'padrao') { echo 'linhapadrao'; } ?>">
+								<div class="linha-titulo"><?php if ($paginaAtual == 'Agricultura') { echo 'Inscrições'; } elseif ($paginaAtual == 'Turismo') { echo 'Inscrições'; } elseif ($paginaAtual == 'Soluções Socioambientais') { echo 'XX de XXXX'; } ?></div>
+								<div class="linha-secundaria"><?php if ($paginaAtual == 'Agricultura') { echo 'de 27 de junho a 02 de outubro de 2024'; } elseif ($paginaAtual == 'Turismo') { echo 'de 27 de junho a 02 de outubro de 2024'; } elseif ($paginaAtual == 'Soluções Socioambientais') { echo 'Inscrições'; } ?></div>
 							</div>
 						</div>
 					</div>
@@ -33,9 +34,9 @@
 							<div class="bolinha-numero">
 								<div class="linha-numero">2</div>
 							</div>
-							<div class="textos dflt <?php if ($temaCor == 'verde') { echo 'linhaverde'; } elseif ($temaCor == 'rosa') { echo 'linharosa'; } elseif ($temaCor == 'azul') { echo 'linhaazul'; } elseif ($temaCor == 'padrao') { echo 'linhapadrao'; } ?>">
-								<div class="linha-titulo"><?php if ($paginaAtual == 'Agricultura') { echo 'Resultado da seleção intermediária'; } elseif ($paginaAtual == 'Turismo') { echo 'Resultado da seleção intermediária'; } ?></div>
-								<div class="linha-secundaria"><?php if ($paginaAtual == 'Agricultura') { echo '26 de novembro de 2024'; } elseif ($paginaAtual == 'Turismo') { echo '26 de novembro de 2024'; } ?></div>
+							<div class="textos dfl <?php if ($temaCor == 'verde') { echo 'linhaverde'; } elseif ($temaCor == 'rosa') { echo 'linharosa'; } elseif ($temaCor == 'azul') { echo 'linhaazul'; } elseif ($temaCor == 'padrao') { echo 'linhapadrao'; } ?>">
+								<div class="linha-titulo"><?php if ($paginaAtual == 'Agricultura') { echo 'Resultado da seleção intermediária'; } elseif ($paginaAtual == 'Turismo') { echo 'Resultado da seleção intermediária'; } elseif ($paginaAtual == 'Soluções Socioambientais') { echo 'XX de XXXX'; } ?></div>
+								<div class="linha-secundaria"><?php if ($paginaAtual == 'Agricultura') { echo '26 de novembro de 2024'; } elseif ($paginaAtual == 'Turismo') { echo '26 de novembro de 2024'; } elseif ($paginaAtual == 'Soluções Socioambientais') { echo 'Resultado da etapa 1'; } ?></div>
 							</div>
 						</div>
 					</div>
@@ -45,9 +46,9 @@
 							<div class="bolinha-numero">
 								<div class="linha-numero">3</div>
 							</div>
-							<div class="textos dflt <?php if ($temaCor == 'verde') { echo 'linhaverde'; } elseif ($temaCor == 'rosa') { echo 'linharosa'; } elseif ($temaCor == 'azul') { echo 'linhaazul'; } elseif ($temaCor == 'padrao') { echo 'linhapadrao'; } ?>">
-								<div class="linha-titulo"><?php if ($paginaAtual == 'Agricultura') { echo 'Resultado final: <span class="w500">análise do comitê e divulgação dos resultados</span>'; } elseif ($paginaAtual == 'Turismo') { echo 'Resultado final: <span class="w500">análise do comitê e divulgação dos resultados</span>'; } ?></div>
-								<div class="linha-secundaria"><?php if ($paginaAtual == 'Agricultura') { echo '11 de fevereiro de 2025'; } elseif ($paginaAtual == 'Turismo') { echo '11 de fevereiro de 2025'; } ?></div>
+							<div class="textos dfl <?php if ($temaCor == 'verde') { echo 'linhaverde'; } elseif ($temaCor == 'rosa') { echo 'linharosa'; } elseif ($temaCor == 'azul') { echo 'linhaazul'; } elseif ($temaCor == 'padrao') { echo 'linhapadrao'; } ?>">
+								<div class="linha-titulo"><?php if ($paginaAtual == 'Agricultura') { echo 'Resultado final: <span class="w500">análise do comitê e divulgação dos resultados</span>'; } elseif ($paginaAtual == 'Turismo') { echo 'Resultado final: <span class="w500">análise do comitê e divulgação dos resultados</span>'; } elseif ($paginaAtual == 'Soluções Socioambientais') { echo 'XX de XXXX'; } ?></div>
+								<div class="linha-secundaria"><?php if ($paginaAtual == 'Agricultura') { echo '11 de fevereiro de 2025'; } elseif ($paginaAtual == 'Turismo') { echo '11 de fevereiro de 2025'; } elseif ($paginaAtual == 'Soluções Socioambientais') { echo 'Seleção final: divulgação'; } ?></div>
 							</div>
 						</div>
 					</div>
@@ -57,9 +58,9 @@
 							<div class="bolinha-numero">
 								<div class="linha-numero">4</div>
 							</div>
-							<div class="textos dflt <?php if ($temaCor == 'verde') { echo 'linhaverde'; } elseif ($temaCor == 'rosa') { echo 'linharosa'; } elseif ($temaCor == 'azul') { echo 'linhaazul'; } elseif ($temaCor == 'padrao') { echo 'linhapadrao'; } ?>">
-								<div class="linha-titulo"><?php if ($paginaAtual == 'Agricultura') { echo 'Início dos projetos'; } elseif ($paginaAtual == 'Turismo') { echo 'Início dos projetos'; } ?></div>
-								<div class="linha-secundaria"><?php if ($paginaAtual == 'Agricultura') { echo 'abril de 2025'; } elseif ($paginaAtual == 'Turismo') { echo 'abril de 2025'; } ?></div>
+							<div class="textos dfl <?php if ($temaCor == 'verde') { echo 'linhaverde'; } elseif ($temaCor == 'rosa') { echo 'linharosa'; } elseif ($temaCor == 'azul') { echo 'linhaazul'; } elseif ($temaCor == 'padrao') { echo 'linhapadrao'; } ?>">
+								<div class="linha-titulo"><?php if ($paginaAtual == 'Agricultura') { echo 'Início dos projetos'; } elseif ($paginaAtual == 'Turismo') { echo 'Início dos projetos'; } elseif ($paginaAtual == 'Soluções Socioambientais') { echo 'De XX de XXXX <br class=""desk"> a XX de XXXX'; } ?></div>
+								<div class="linha-secundaria"><?php if ($paginaAtual == 'Agricultura') { echo 'abril de 2025'; } elseif ($paginaAtual == 'Turismo') { echo 'abril de 2025'; } elseif ($paginaAtual == 'Soluções Socioambientais') { echo 'Processo de contratação'; } ?></div>
 							</div>
 						</div>
 					</div>					

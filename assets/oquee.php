@@ -42,9 +42,8 @@
 				elseif ( $paginaAtual == 'Chamadas' ) { 
 					echo '
 						<div class="bloco">
-							<p class="subtitulo-generico">Conheça os projetos que estão em andamento</p>
-							<p class="texto-generico">As 18 primeiras iniciativas apoiadas pela Aliança estão em plena atividade.
-								Os projetos são distribuídos por vários estados do Brasil e vão beneficiar diretamente milhares de integrantes de associações e cooperativas rurais, nano e microempreendedores.</p>
+							<p class="subtitulo-generico">Projetos em<br> andamento</p>
+							<p class="texto-generico">A Aliança pela Inclusão Produtiva atua em<br class="desk"> várias regiões do Brasil, com iniciativas que<br class="desk"> geram impacto positivo e sustentável em<br class="desk"> comunidades rurais e urbanas.</p>
 						</div>
 					';
 				} 
@@ -77,27 +76,27 @@
 						<div class="check dflt">';
 						include ('assets/img/icons/check.php');
 							echo '
-							<p>R$ 8 milhões investidos</p>							
+							<p>XX soluções inovadoras</p>							
 						</div>
 						<div class="check dflt">';
 						include ('assets/img/icons/check.php');
 							echo '
-							<p>Mais de 600 inscrições</p>							
+							<p>Mais de XXX inscrições</p>							
 						</div>
 						<div class="check dflt">';
 						include ('assets/img/icons/check.php');
 							echo '
-							<p>18 projetos selecionados</p>							
+							<p>XX iniciativas em andamento</p>							
 						</div>
 						<div class="check dflt">';
 						include ('assets/img/icons/check.php');
 							echo '
-							<p>16 estados atendidos</p>							
+							<p>XX entidades parceiras</p>							
 						</div>
 						<div class="check dflt">';
 						include ('assets/img/icons/check.php');
 							echo '
-							<p>2.398 pessoas beneficiadas </p>							
+							<p>XXX pessoas beneficiadas</p>							
 						</div>
 					</div>
 				';

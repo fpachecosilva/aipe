@@ -10,8 +10,9 @@
   <body id="home">
     <?php include 'assets/header.php'; ?>
     <?php include 'assets/banners.php'; ?>
+    <?php include 'assets/blocoduplo.php'; ?>
     <?php include 'assets/inscrever.php'; ?>
-    <?php include 'assets/fundadores.php'; ?>
+    <?php include 'assets/realizacao.php'; ?>
     <?php include 'assets/governanca.php'; ?>
     <? include ('assets/footer.php') ?>
   </body>

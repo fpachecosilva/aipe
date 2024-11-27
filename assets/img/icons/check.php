@@ -26,6 +26,13 @@ if ($temaCor === 'verde') {
 			<path d="M17.7246 0L16.1067 0C14.2128 0 12.4815 1.07001 11.6345 2.76393L6.0928 13.8474H10.8009L17.7246 0Z" fill="#FFAC4F"/>
 			</svg>
     ';
+} elseif ($temaCor === 'novolaranja') {
+    echo '    
+			<svg width="26" height="17" viewBox="0 0 26 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M0.769226 6.24219L7.26677 6.24219L13.7643 16.414H7.26677L0.769226 6.24219Z" fill="#FF874F"/>
+			<path d="M25.2306 0L21.6072 0C19.8276 0 18.1822 0.945843 17.2866 2.4836L9.17783 16.4061H15.6754L25.2306 0Z" fill="#FF874F"/>
+			</svg>
+    ';
 }
 ?>
 
