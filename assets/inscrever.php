@@ -5,7 +5,7 @@
 			<div class="bloco1 dfl">
 				<img class="img-fora-left" src="<? echo $images ?>home/inscrever-1.png" alt="homem">
 				<div class="wrp-txt">
-					<p class="subtitulo-generico">Com o apoio da AIPÊ, projetos que trazem mais renda e emprego  no campo, nas cidades e suas periferias ganham força e solidez para aumentar seu impacto positivo.</p>
+					<p class="subtitulo-generico">Com o apoio da AIPÊ, projetos que <strong>geram</strong> mais renda e emprego no <strong>campo e em centros urbanos</strong> ganham força e solidez para aumentar seu impacto positivo.</p>
 				</div>
 			</div>
 			

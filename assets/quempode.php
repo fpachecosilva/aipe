@@ -1,52 +1,44 @@
 <section class="quempode" id="quempode">	
 	<div class="container">
-		<p class="titulo">Quem pode participar?</p>
-		<div class="wrapper-blocos-quempode divs5050">
-			<div class="esq">
-				<div class="bloco fundodiferente">
-					<p class="texto-primeiro-bloco">Organizações sem fins lucrativos que atuam em comunidades urbanas vulneráveis com projetos que ajudam a melhorar a vida nas cidades.</p>
-				</div>
-				<div class="bloco">
-					<div class="topo-icones dfl">
-						<div class="bloco-interno dfl">
-							<?php include 'assets/img/icons/minibloco-pessoa.php'; ?>
-							<p>NEGÓCIOS<br>COLETIVOS</p>
-						</div>
-						<div class="bloco-interno dfl">
-						<?php include 'assets/img/icons/minibloco-capacitacao.php'; ?>
-							<p>CAPACITAÇÃO<br>PROFISSIONAL</p>
-						</div>
+		<p class="titulo">Quais os perfis de organizações podem participar?</p>
+		<div class="wrapper-blocos-quempode">
+
+			<div class="bloco">
+				<div class="topo-icones">
+					<div class="bloco-interno dfl">
+						<?php include 'assets/img/icons/minibloco-pessoa.php'; ?>
+						<p>EMPREENDEDORISMO<br>COLETIVO</p>
 					</div>
-					<p class="titulo-bloco">Redes de<br> organizações:</p>
-					<p class="texto-bloco">Conjuntos de instituições que colaboram, somando forças para alcançar objetivos comuns. Essas redes permitem troca de experiências e fortalecem a implementação dos projetos.</p>
+					<div class="bloco-interno dfl">
+					<?php include 'assets/img/icons/minibloco-capacitacao.php'; ?>
+						<p>EMPREGABILIDADE</p>
+					</div>
 				</div>
+				<p class="titulo-bloco">Organizações<br class="desk"> Intermediárias:</p>
+				<p class="texto-bloco">Facilitadoras que conectam projetos e iniciativas com recursos, conhecimentos e redes de apoio. Seu papel é impulsionar e coordenar ações em larga escala.</p>
 			</div>
-			<div class="dir">
-				<div class="bloco">
-					<div class="topo-icones dfl">
-						<div class="bloco-interno dfl">
-							<?php include 'assets/img/icons/minibloco-pessoa.php'; ?>
-							<p>NEGÓCIOS<br>COLETIVOS</p>
-						</div>
-						<div class="bloco-interno dfl">
-						<?php include 'assets/img/icons/minibloco-capacitacao.php'; ?>
-							<p>CAPACITAÇÃO<br>PROFISSIONAL</p>
-						</div>
+			<div class="bloco">
+				<div class="topo-icones">
+					<div class="bloco-interno dfl">
+						<?php include 'assets/img/icons/minibloco-pessoa.php'; ?>
+						<p>EMPREENDEDORISMO<br>COLETIVO</p>
 					</div>
-					<p class="titulo-bloco">Organizações<br> Intermediárias:</p>
-					<p class="texto-bloco">Conjuntos de instituições que colaboram, somando forças para alcançar objetivos comuns. Essas redes permitem troca de experiências e fortalecem a implementação dos projetos.</p>
 				</div>
-				<div class="bloco">
-					<div class="topo-icones dfl">
-						<div class="bloco-interno dfl">
-							<?php include 'assets/img/icons/minibloco-pessoa.php'; ?>
-							<p>NEGÓCIOS<br>COLETIVOS</p>
-						</div>						
-					</div>
-					<p class="titulo-bloco">Organizações<br> Executoras:</p>
-					<p class="texto-bloco">Instituições diretamente responsáveis pela execução dos projetos no campo, implementando as ações práticas e alcançando diretamente as comunidades urbanas beneficiadas.</p>
-				</div>
+				<p class="titulo-bloco">Redes de<br class="desk"> organizações:</p>
+				<p class="texto-bloco">Redes, já constituídas ou em criação, formadas por duas ou mais organizações que atuam em parceria, dentro de um mesmo processo produtivo, em um território.</p>
 			</div>
+			<div class="bloco">
+				<div class="topo-icones">
+					<div class="bloco-interno dfl">
+						<?php include 'assets/img/icons/minibloco-pessoa.php'; ?>
+						<p>EMPREENDEDORISMO<br>COLETIVO</p>
+					</div>
+				</div>
+				<p class="titulo-bloco">Associações<br class="desk"> ou Cooperativas:</p>
+				<p class="texto-bloco">Negócios coletivos de produção ou prestação de serviços socioambientais, compostos por população de baixa renda.</p>
+			</div>
+
+			
 		</div>
 	</div>	
 </section>

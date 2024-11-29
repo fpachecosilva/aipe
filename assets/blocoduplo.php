@@ -1,4 +1,4 @@
-<?php $temaCor = 'padrao'; ?>
+<?php $temaCor = 'amarelo'; ?>
 
 <section class="blocoduplo" id="blocoduplo">
 	
@@ -7,10 +7,10 @@
 				<div class="wrapper-titulo-cima">
 					<div class="titulo dfl">
 						<?php include 'assets/img/icons/minibloco-pessoa.php'; ?>
-						NEGÓCIOS<BR> COLETIVOS
+						EMPREENDEDORISMO<BR> COLETIVO
 					</div>
 					<span class="separador"></span>
-					<p class="texto-generico-24">Apoio a projetos de <strong>empreendedorismo</strong> que ofereçam soluções socioambientais para centros urbanos.</p>
+					<p class="texto-generico-24">Apoio a negócios coletivos<br class="desk"> <strong>(empreendedorismo coletivo)</strong> que lidam<br class="desk"> com produtos e/ou serviços nas áreas de:</p>
 				</div>
 				<div class="wrapper-titulo-baixo dflt">
 					<div class="minibloco">
@@ -34,10 +34,10 @@
 				<div class="wrapper-titulo-cima">
 					<div class="titulo dfl">
 						<?php include 'assets/img/icons/minibloco-capacitacao.php'; ?>
-						CAPACITAÇÃO<BR> PROFISSIONAL
+						EMPREGABILIDADE
 					</div>
 					<span class="separador"></span>
-					<p class="texto-generico-24">Capacitação profissional em setores sustentáveis para ampliar a <strong>empregabilidade</strong> nas cidades.</p>
+					<p class="texto-generico-24">Apoio a soluções focadas no processo de capacitação e formação profissional <strong>(empregabilidade)</strong> na área de:</p>
 				</div>
 				<div class="wrapper-titulo-baixo dflt">
 					<div class="minibloco">

@@ -10,7 +10,7 @@
 									Soluções Socioambientais para Centros Urbanos
 								</p>
 								<p class="conteudo-texto">
-									Essa chamada nacional oferece apoio a associações sem fins lucrativos e redes que atuam em comunidades urbanas vulneráveis nos temas de reciclagem, economia circular, agroecologia, agricultura urbana e energias renováveis.
+									A chamada pública oferece apoio a organizações sem fins lucrativos com o objetivo de aumentar a renda e postos de trabalho nas áreas de reciclagem, economia circular, agricultura e agroecologia urbanas e energias renováveis. A ideia é que juntos(as) possamos impulsionar projetos ligados a soluções sustentáveis e contribuir para a melhoria da vida nas cidades!
 								</p>
 							</div>
 							<div class="wrapper-btn">

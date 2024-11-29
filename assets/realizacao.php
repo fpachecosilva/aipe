@@ -1,4 +1,4 @@
-<section class="realizacao">
+<section class="realizacao <?php if ($paginaAtual === 'Home') { echo 'realizacaohome'; } elseif ($paginaAtual === 'Soluções Socioambientais') { echo 'realizacaochamadas'; } ?> ">
 	<div class="container dflt">
 		<div class="esq">
 			<div class="realizacao-parceria dfc">
@@ -12,7 +12,7 @@
 				UMA PARCERIA
 				<span></span>
 			</div>
-			<img class="logo" src="<? echo $images ?>home/parceiros-home.png" alt="">
+			<img class="" src="<?php if ($paginaAtual === 'Home') { echo $images . 'home/parceiros-home.png'; } elseif ($paginaAtual === 'Soluções Socioambientais') { echo $images . 'home/parceiros-home.png'; } ?>" alt="">
 		</div>
 	</div>
 </section>

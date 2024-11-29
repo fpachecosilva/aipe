@@ -14,7 +14,7 @@
 			<?php include 'assets/img/icons/email.php'; ?>
 			<p class="subtitulo-generico">Ainda está<br class="desk"> com dúvida?</p>
 			<p class="texto-generico">Vem falar com a gente!</p>
-			<a href="mailto:aipe@institutovotorantim.org.br" class="btn brownhover email-texto nocolor">aipe@institutovotorantim.org.br</a>
+			<a href="mailto:chamadas@aipe.org.br" class="btn brownhover email-texto nocolor">chamadas@aipe.org.br</a>
 		</div>		
 	</div>
 </section>

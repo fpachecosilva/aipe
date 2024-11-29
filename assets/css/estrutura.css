@@ -4,9 +4,9 @@
 :root {
   --principal: #592D34;
   --secundaria: #FFAC4F;
-  --laranjachamada: #FF874F;
-  --laranjaauxiliar: #FFE8CD;
-  --laranjaauxiliarclaro: #fff8f1;
+  --laranjachamada: #FFD600;
+  --laranjaauxiliar: #fff7cc;
+  --laranjaauxiliarclaro: #fffdf2;
 
   --verdebanner: #29b79c;
   --azulbanner: #00bfe6;
@@ -16,6 +16,7 @@
   --bgazul: #d9f5fb;
   --bgverde: #cbf1ea;
   --bgrosa: #ffdee0;
+  --bgamarelo: #fffbe6;
 
   --margin: 30px;
   --tempo: 500ms;
@@ -507,6 +508,10 @@ svg.icon {
   background: var(--bgrosa);
 }
 
+.bglightamarelo {
+  background: var(--bgamarelo);
+}
+
 .menu {
   min-height: 136px;
   height: auto;
@@ -782,15 +787,20 @@ section.blocoduplo .esq, section.blocoduplo .dir {
 section.blocoduplo .esq {
   background: var(--laranjaauxiliar);
 }
+section.blocoduplov2 .esq {
+}
 section.blocoduplo .dir {
   background: var(--laranjaauxiliarclaro);
+}
+section.blocoduplov2 .dir {
+  width: 35%;
 }
 section.blocoduplo .titulo {
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 1.2;
-  color: var(--secundaria);
+  color: var(--principal);
   gap: 14px;
 }
 section.blocoduplo .separador {
@@ -815,6 +825,10 @@ section.blocoduplo .minibloco {
   gap: 20px;
   flex: 1;
 }
+section.blocoduplov2 .minibloco {
+  flex-direction: row;
+  align-items: center;
+}
 section.blocoduplo .minibloco:last-of-type {
   flex: 2;
 }
@@ -822,13 +836,23 @@ section.blocoduplo .minibloco svg {
   min-height: 50px;
   max-height: 50px;
 }
+section.blocoduplov2 .minibloco svg {
+  min-height: 30px;
+  max-height: 30px;
+}
 section.blocoduplo .minibloco .miniblocotitulo {
   font-size: 19px;
   font-weight: bold;
 }
+section.blocoduplov2 .minibloco .miniblocotitulo {
+  font-size: 16px;
+}
 section.blocoduplo .minibloco .miniblocotexto {
   font-size: 16px;
   line-height: 1.2;
+}
+section.blocoduplov2 .miniblocotexto {
+  font-size: 20px;
 }
 
 .bloco-texto {
@@ -850,6 +874,9 @@ section.realizacao .esq img {
 }
 section.realizacao .dir {
   width: 70%;
+}
+section.realizacaochamadas .dir img {
+  
 }
 section.realizacao .realizacao-parceria {
   font-size: 14px;
@@ -1284,7 +1311,8 @@ section.selecao .box-selecao .linha-titulo {
   font-size: 30px;
   font-weight: 600;
   color: var(--secundaria);
-  width: 240px;
+  width: 330px;
+  min-width: 330px;
 }
 
 section.selecao .box-selecao .linha-secundaria {
@@ -1569,7 +1597,7 @@ section.beneficios .beneficios-wrapper .beneficio svg {
   font-weight: 600;
 }
 #socioambientais .processos-txt {
-  color: var(--laranjachamada)!important;
+  color: var(--principal)!important;
   font-size: 40px;
 }
 
@@ -1583,7 +1611,7 @@ section.beneficios .beneficios-wrapper .beneficio svg {
   max-width: 100%;
 }
 #socioambientais .objetivo .dir .bloco {
-  background: #FFF3E5;
+  background: #fff9d9;
   border-radius: 20px;
   padding: 47px 40px;
 }
@@ -1597,9 +1625,13 @@ section.beneficios .beneficios-wrapper .beneficio svg {
 #socioambientais .objetivo .dir .bloco .texto-com-icone {
   font-size: 18px;
   font-weight: 600;
-  gap: 6px;
+  gap: 15px;
   line-height: 1.3;
   margin-bottom: 25px;
+}
+#socioambientais .objetivo .dir .bloco .texto-com-icone svg {
+  min-width: 24px;
+  margin-top: 4px;
 }
 #socioambientais .objetivo .dir .bloco .texto-normal {
   font-size: 16px;
@@ -1630,8 +1662,9 @@ section.beneficios .beneficios-wrapper .beneficio svg {
 #socioambientais .atividades .esq .txt-padrao {
   width: 478px;
   max-width: 100%;
-  line-height: 1.3;
+  line-height: 1.5;
   font-weight: 500;
+  font-size: 18px;
 }
 #socioambientais .atividades .dir {
   background: var(--principal);
@@ -1663,8 +1696,10 @@ section.beneficios .beneficios-wrapper .beneficio svg {
 }
 #socioambientais #quempode .titulo {
   color: #fff;
-  font-size: 60px;
+  font-size: 40px;
   margin-bottom: 45px;
+  text-align: center;
+  max-width: 100%;
 }
 #socioambientais #quempode .wrapper-blocos-quempode {
   display: flex;
@@ -1683,6 +1718,9 @@ section.beneficios .beneficios-wrapper .beneficio svg {
   line-height: 1.1;
   overflow: hidden;
 }
+#socioambientais #quempode .bloco:nth-child(2) .topo-icones, #socioambientais #quempode .bloco:nth-child(3) .topo-icones {
+  margin-bottom: 90px;
+}
 #socioambientais #quempode .bloco.fundodiferente {
   background: var(--bgpadrao);
 }
@@ -1696,13 +1734,21 @@ section.beneficios .beneficios-wrapper .beneficio svg {
   gap: 10px;
   margin-right: 35px;
 }
+#socioambientais #quempode .bloco .bloco-interno svg {
+  min-width: 32px;
+  max-width: 32px;
+}
 #socioambientais #quempode .bloco .bloco-interno p {
-  color: var(--laranjachamada);
+  color: var(--principal);
   font-weight: 700;
   letter-spacing: 2px;
+  font-size: 14px;
 }
 #socioambientais #quempode .bloco .topo-icones {
   margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 #socioambientais #quempode .bloco .titulo-bloco {
   font-size: 26px;
@@ -1719,12 +1765,12 @@ section.beneficios .beneficios-wrapper .beneficio svg {
 #socioambientais #comoparticipar {
   padding: 140px 0 106px 0;
 }
-#socioambientais #comoparticipar .subtitulo-generico:first-of-type {
-  margin-bottom: 80px;
+#socioambientais #comoparticipar .subtitulo-generico:nth-child(1) {  
   color: var(--laranjachamada);
   width: 405px;
   max-width: 100%;
   font-weight: 600;
+  font-size: 60px;
 }
 #socioambientais #comoparticipar .texto-generico {
   font-size: 18px;
@@ -1738,8 +1784,27 @@ section.beneficios .beneficios-wrapper .beneficio svg {
 }
 
 #socioambientais #comoparticipar .baixo img {
-  margin-top: -40px;
+  
 }
+
+
+.custom-list {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.custom-list li {
+  margin-bottom: 30px;
+  list-style: auto;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.custom-list li::marker {
+  font-weight: bold;
+  padding-right: 10px;
+}
+
 
 
 @media screen and (max-width: 1134px) {
@@ -1788,6 +1853,15 @@ section.beneficios .beneficios-wrapper .beneficio svg {
   .gap60 {
     gap: 30px;
   }
+
+  .governanca .gap60 {
+    gap: 60px;
+  }
+
+  section.governanca {
+    padding-bottom: 50px;
+  }
+
   .gap150 {
     gap: 150px;
   }
@@ -2268,6 +2342,7 @@ section.beneficios .beneficios-wrapper .beneficio svg {
 
   section.selecao .box-selecao .linha-wrapper .textos>div {
     width: 100%;
+    min-width: initial;
     font-size: 16px;
   }
 
@@ -2388,6 +2463,9 @@ section.beneficios .beneficios-wrapper .beneficio svg {
   section.blocoduplo .esq, section.blocoduplo .dir {
     padding: 50px 30px;
   }
+  section.blocoduplov2 .esq, section.blocoduplov2 .dir {
+    width: 100%;
+  }
 
   section.realizacao {
     padding-bottom: 60px;
@@ -2459,10 +2537,14 @@ section.beneficios .beneficios-wrapper .beneficio svg {
     font-size: 25px;
   }
   #socioambientais #comoparticipar .subtitulo-generico:first-of-type {
-    margin-bottom: 45px;
+    
+  }
+  #socioambientais #comoparticipar .subtitulo-generico:nth-child(1) {
+    font-size: 40px;
+    margin-bottom: 15px;
   }
   #socioambientais #comoparticipar .baixo img {
-    margin-top: 30px;
+    margin-bottom: 30px;
   }
   #socioambientais .beneficios-txt {
     font-size: 20px;
@@ -2508,3 +2590,12 @@ section.beneficios .beneficios-wrapper .beneficio svg {
   #chamadas section.chamadas-negocios .btn-chamadas {
     margin-bottom: 0;
   }
+  .custom-list {
+    margin-left: 20px;
+  }
+
+  #socioambientais #quempode .bloco:nth-child(2) .topo-icones, #socioambientais #quempode .bloco:nth-child(3) .topo-icones {
+    margin-bottom: 30px;
+  }
+
+}

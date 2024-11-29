@@ -4,18 +4,18 @@
 	} elseif ( $paginaAtual == 'Turismo' ) {
 		$temaCor = 'rosa';
 	}	elseif ( $paginaAtual == 'Soluções Socioambientais' ) {
-		$temaCor = 'padrao';
+		$temaCor = 'amarelo';
 	}
 ?>
 
 <section class="processos">
 	<div class="container">
-		<p class="subtitulo-generico">Processo seletivo</p>
-		<p class="subtitulo-espacado">DOCUMENTOS PARA INSCRIÇÃO</p>
+		<p class="subtitulo-generico">Documentos para inscrição</p>
+		<!-- <p class="subtitulo-espacado">DOCUMENTOS PARA INSCRIÇÃO</p> -->
 		<div class="processos-wrapper dflt divs5050">
 			<div class="esq dflt">
 				
-				<div class="processo dflt <?php if ($temaCor == 'verde') { echo 'bglightverde'; } elseif ($temaCor == 'rosa') { echo 'bglightrosa'; } elseif ($temaCor == 'azul') { echo 'bglightazul'; } elseif ($temaCor == 'padrao') { echo 'bglightpadrao'; } ?> ">
+				<div class="processo dflt <?php if ($temaCor == 'verde') { echo 'bglightverde'; } elseif ($temaCor == 'rosa') { echo 'bglightrosa'; } elseif ($temaCor == 'azul') { echo 'bglightazul'; } elseif ($temaCor == 'padrao') { echo 'bglightpadrao'; } elseif ($temaCor == 'amarelo') { echo 'bglightamarelo'; } ?> ">
 					<?php	if ($paginaAtual == 'Soluções Socioambientais') { include 'assets/img/icons/arquivo-laranjav2.php'; } else { include 'assets/img/icons/arquivo.php'; } ?>
 					
 					<div class="wrapper-txts dflt">
@@ -28,7 +28,7 @@
 					</div>
 				</div>
 
-				<div class="processo dflt <?php if ($temaCor == 'verde') { echo 'bglightverde'; } elseif ($temaCor == 'rosa') { echo 'bglightrosa'; } elseif ($temaCor == 'azul') { echo 'bglightazul'; } elseif ($temaCor == 'padrao') { echo 'bglightpadrao'; } ?> ">
+				<div class="processo dflt <?php if ($temaCor == 'verde') { echo 'bglightverde'; } elseif ($temaCor == 'rosa') { echo 'bglightrosa'; } elseif ($temaCor == 'azul') { echo 'bglightazul'; } elseif ($temaCor == 'padrao') { echo 'bglightpadrao'; } elseif ($temaCor == 'amarelo') { echo 'bglightamarelo'; } ?> ">
 					<?php	if ($paginaAtual == 'Soluções Socioambientais') { include 'assets/img/icons/pasta-laranjav2.php'; } else { include 'assets/img/icons/pasta.php'; } ?>
 					
 					<div class="wrapper-txts dflt">
@@ -44,20 +44,20 @@
 			</div>
 			<div class="dir dflt">
 				
-				<div class="processo dflt <?php if ($temaCor == 'verde') { echo 'bglightverde'; } elseif ($temaCor == 'rosa') { echo 'bglightrosa'; } elseif ($temaCor == 'azul') { echo 'bglightazul'; } elseif ($temaCor == 'padrao') { echo 'bglightpadrao'; } ?> ">
+				<div class="processo dflt <?php if ($temaCor == 'verde') { echo 'bglightverde'; } elseif ($temaCor == 'rosa') { echo 'bglightrosa'; } elseif ($temaCor == 'azul') { echo 'bglightazul'; } elseif ($temaCor == 'padrao') { echo 'bglightpadrao'; } elseif ($temaCor == 'amarelo') { echo 'bglightamarelo'; } ?> ">
 					<?php	if ($paginaAtual == 'Soluções Socioambientais') { include 'assets/img/icons/video-laranjav2.php'; } else { include 'assets/img/icons/video.php'; } ?>	
 
 					<div class="wrapper-txts dflt">
 						<p class="processos-txt <?php if ($temaCor == 'verde') { echo 'txtverde'; } elseif ($temaCor == 'rosa') { echo 'txtrosa'; } elseif ($temaCor == 'azul') { echo 'txtazul'; } elseif ($temaCor == 'padrao') { echo 'txtpadrao'; } ?>">
-							<?php if ($paginaAtual == 'Agricultura') { echo 'Vídeo'; } elseif ($paginaAtual == 'Turismo') { echo 'Vídeo'; } elseif ($paginaAtual == 'Soluções Socioambientais') { echo 'Vídeo'; } ?>
+							<?php if ($paginaAtual == 'Agricultura') { echo 'Vídeo'; } elseif ($paginaAtual == 'Turismo') { echo 'Vídeo'; } elseif ($paginaAtual == 'Soluções Socioambientais') { echo 'Foto e vídeo'; } ?>
 						</p>
 						<p class="texto-generico">
-							<?php if ($paginaAtual == 'Agricultura') { echo 'Envie  um vídeo de até 5 minutos apresentando a proposta na prática e sua importância para a comunidade e o meio ambiente.'; } elseif ($paginaAtual == 'Turismo') { echo 'Envie  um vídeo de até 5 minutos apresentando a proposta na prática e sua importância para a comunidade e o meio ambiente.'; } elseif ($paginaAtual == 'Soluções Socioambientais') { echo 'Envie um vídeo de até 5 min. apresentando a proposta na prática e sua importância para a comunidade e o meio ambiente.'; } ?>
+							<?php if ($paginaAtual == 'Agricultura') { echo 'Envie  um vídeo de até 5 minutos apresentando a proposta na prática e sua importância para a comunidade e o meio ambiente.'; } elseif ($paginaAtual == 'Turismo') { echo 'Envie  um vídeo de até 5 minutos apresentando a proposta na prática e sua importância para a comunidade e o meio ambiente.'; } elseif ($paginaAtual == 'Soluções Socioambientais') { echo 'Evidências que apresentem a proposta e a experiência da organização proponente na prática e sua importância para a comunidade e o meio ambiente.'; } ?>
 						</p>
 					</div>
 				</div>
 
-				<div class="processo dflt <?php if ($temaCor == 'verde') { echo 'bglightverde'; } elseif ($temaCor == 'rosa') { echo 'bglightrosa'; } elseif ($temaCor == 'azul') { echo 'bglightazul'; } elseif ($temaCor == 'padrao') { echo 'bglightpadrao'; } ?> ">
+				<div class="processo dflt <?php if ($temaCor == 'verde') { echo 'bglightverde'; } elseif ($temaCor == 'rosa') { echo 'bglightrosa'; } elseif ($temaCor == 'azul') { echo 'bglightazul'; } elseif ($temaCor == 'padrao') { echo 'bglightpadrao'; } elseif ($temaCor == 'amarelo') { echo 'bglightamarelo'; } ?> ">
 					<?php	if ($paginaAtual == 'Soluções Socioambientais') { include 'assets/img/icons/cronograma-laranjav2.php'; } else { include 'assets/img/icons/cronograma.php'; } ?>	
 				
 					<div class="wrapper-txts dflt">

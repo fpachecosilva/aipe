@@ -1,4 +1,4 @@
-<?php $temaCor = 'novolaranja'; ?>
+<?php $temaCor = 'amarelo'; ?>
 
 <section class="objetivo" id="objetivo">
 	<div class="container">
@@ -6,22 +6,23 @@
 			<div class="esq">
 				<p class="subtitulo-generico">Qual o objetivo da chamada?</p>
 				<p class="txt-padrao">
-					Fortalecer o empreendedorismo e a empregabilidade nas regiões periféricas de grandes cidades. Apoiamos com recursos e conhecimento iniciativas que trazem soluções sustentáveis ligadas a reciclagem, economia circular, agroecologia e agricultura urbana e energias renováveis.<br><br>Transforme a sua cidade com mais emprego, renda e sustentabilidade
+				Promover o aumento de renda e de postos de trabalho, por meio do apoio a iniciativas de inclusão produtiva nos segmentos de <strong>Reciclagem, Economia Circular, Agricultura e Agroecologia Urbana e Energias Renováveis.</strong><br><br>
+				A finalidade é preparar e integrar a população em vulnerabilidade em segmentos que fortalecem a transição para um país mais sustentável e resiliente às mudanças climáticas.
 				</p>
 			</div>
 			<div class="dir">
 				<div class="bloco">
-					<p class="bloco-titulo">Áreas de atuação</p>
+					<p class="bloco-titulo"><strong>Quem pode participar?</strong></p>
 					<span></span>
-					<div class="texto-com-icone dfl">
-						<?php include 'assets/img/icons/check.php'; ?>
-						Municípios com mais de 50.000 habitantes
+					<div class="texto-com-icone dflt">
+						<?php include 'assets/img/icons/check-laranjav2.php'; ?>
+						Organizações sem fins lucrativos, de todo o território nacional, que trabalhem em um dos temas apoiados pela chamada (reciclagem, economia circular, agroecologia e agricultura urbana e energias renováveis).
 					</div>
-					<div class="texto-com-icone dfl">
-						<?php include 'assets/img/icons/check.php'; ?>
-						Com foco em territórios de mais de 100.000 habitantes
+					<div class="texto-com-icone dflt">
+						<?php include 'assets/img/icons/check-laranjav2.php'; ?>
+						Serão apoiados projetos que fortaleçam negócios coletivos já existentes (Empreendedorismo Coletivo) ou que aprimorem habilidades profissionais e pessoais de indivíduos (Empregabilidade);
 					</div>
-					<p class="texto-normal">Daremos preferência para iniciativas que impactam as áreas mais vulneráveis, focadas, principalmente nas regiões Norte, Nordeste, Centro-Oeste e Rio Grande do Sul.</p>
+					<!-- <p class="texto-normal">Daremos preferência para iniciativas que impactam as áreas mais vulneráveis, focadas, principalmente nas regiões Norte, Nordeste, Centro-Oeste e Rio Grande do Sul.</p> -->
 				</div>
 			</div>
 		</div>
