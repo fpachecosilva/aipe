@@ -16,11 +16,11 @@
 					<span></span>
 					<div class="texto-com-icone dflt">
 						<?php include 'assets/img/icons/check-laranjav2.php'; ?>
-						Organizações sem fins lucrativos, de todo o território nacional, que trabalhem em um dos temas apoiados pela chamada (reciclagem, economia circular, agroecologia e agricultura urbana e energias renováveis).
+						Organizações sem fins lucrativos, de todo o território nacional, que trabalhem em um dos temas apoiados pela chamada (reciclagem, economia circular, agroecologia e agricultura urbana e energias renováveis);
 					</div>
 					<div class="texto-com-icone dflt">
 						<?php include 'assets/img/icons/check-laranjav2.php'; ?>
-						Serão apoiados projetos que fortaleçam negócios coletivos já existentes (Empreendedorismo Coletivo) ou que aprimorem habilidades profissionais e pessoais de indivíduos (Empregabilidade);
+						Serão apoiados projetos que fortaleçam negócios coletivos já existentes (Empreendedorismo Coletivo) ou que aprimorem habilidades profissionais e pessoais de indivíduos (Empregabilidade).
 					</div>
 					<!-- <p class="texto-normal">Daremos preferência para iniciativas que impactam as áreas mais vulneráveis, focadas, principalmente nas regiões Norte, Nordeste, Centro-Oeste e Rio Grande do Sul.</p> -->
 				</div>

@@ -12,7 +12,7 @@
 				UMA PARCERIA
 				<span></span>
 			</div>
-			<img class="" src="<?php if ($paginaAtual === 'Home') { echo $images . 'home/parceiros-home.png'; } elseif ($paginaAtual === 'Soluções Socioambientais') { echo $images . 'home/parceiros-home.png'; } ?>" alt="">
+			<img class="" src="<?php if ($paginaAtual === 'Home') { echo $images . 'home/parceiros-home.png'; } elseif ($paginaAtual === 'Soluções Socioambientais') { echo $images . 'chamadas/parceiros-chamadas.png'; } ?>" alt="">
 		</div>
 	</div>
 </section>
