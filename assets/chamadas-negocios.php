@@ -2,7 +2,7 @@
 	<div class="container">		
 		<div class="chamadas-negocios dflt divs5050">
 			<div class="esq">
-				<span class="btn-chamadas padrao">Período da chamada</span>
+				<!-- <span class="btn-chamadas padrao">Período da chamada</span> -->
 				<div class="bloco-texto titulo">
 					<p class="subtitulo-generico txtpadrao w600">Impulsionando trabalho no campo com sustentabilidade</p>
 				</div>
@@ -36,7 +36,7 @@
 			</div>
 
 			<div class="dir">
-				<span class="btn-chamadas azul">Período da chamada</span>
+				<!-- <span class="btn-chamadas azul">Período da chamada</span> -->
 				<div class="bloco-texto titulo">
 					<p class="subtitulo-generico txtazul w600">Gerando trabalho e renda nas periferias</p>
 				</div>
@@ -70,7 +70,7 @@
 			</div>
 		</div>
 
-		<span class="divisor-chamadas"></span>
+		<!-- <span class="divisor-chamadas"></span>
 		
 		<div class="chamadas-negocios dflt divs5050">
 			<div class="esq">
@@ -141,6 +141,6 @@
 				</div>
 			</div>
 
-		</div>	
+		</div>	 -->
 	</div>
 </section>

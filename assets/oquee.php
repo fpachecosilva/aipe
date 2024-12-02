@@ -76,27 +76,27 @@
 						<div class="check dflt">';
 						include ('assets/img/icons/check.php');
 							echo '
-							<p>XX soluções inovadoras</p>							
+							<p>R$ 8 milhões investidos</p>							
 						</div>
 						<div class="check dflt">';
 						include ('assets/img/icons/check.php');
 							echo '
-							<p>Mais de XXX inscrições</p>							
+							<p>Mais de 600 inscrições</p>							
 						</div>
 						<div class="check dflt">';
 						include ('assets/img/icons/check.php');
 							echo '
-							<p>XX iniciativas em andamento</p>							
+							<p>18 projetos selecionados</p>							
 						</div>
 						<div class="check dflt">';
 						include ('assets/img/icons/check.php');
 							echo '
-							<p>XX entidades parceiras</p>							
+							<p>16 estados atendidos</p>							
 						</div>
 						<div class="check dflt">';
 						include ('assets/img/icons/check.php');
 							echo '
-							<p>XXX pessoas beneficiadas</p>							
+							<p>2.398 pessoas beneficiadas </p>							
 						</div>
 					</div>
 				';
