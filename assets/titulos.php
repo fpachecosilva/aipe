@@ -6,7 +6,7 @@
 				<div class="titulos dfsbfe">
 					<div class="wrapper-txts">
 						<div class="descritivo">INSCRIÇÕES ABERTAS</div>
-						<div class="titulo">Nova chamada pública. Inscreva seu projeto!</div>
+						<div class="titulo">Nova chamada pública.<br class="desk"> Inscreva seu projeto!</div>
 					</div>
 					<div class="wrapper-botoes">
 						<a href="#inscrever">
@@ -52,7 +52,7 @@
 			echo('
 				<div class="titulos dfsbfe">
 					<div class="wrapper-txts">						
-						<div class="titulo">Do campo à cidade, transformando realidades</div>
+						<div class="titulo">Do campo à cidade,<br class="desk"> transformando realidades</div>
 					</div>					
 				</div>
 			');
@@ -62,7 +62,7 @@
 			echo('
 				<div class="titulos dfsbfe">
 					<div class="wrapper-txts">						
-						<div class="titulo">Soluções Socioambientais para Centros Urbanos</div>
+						<div class="titulo">Soluções Socioambientais<br class="desk"> para Centros Urbanos</div>
 					</div>
 					<div class="wrapper-btn">
 						<a class="btn brown sechover with-arrow" href="#objetivo"/>O que é?</a>						

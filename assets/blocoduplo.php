@@ -10,7 +10,7 @@
 						EMPREENDEDORISMO<BR> COLETIVO
 					</div>
 					<span class="separador"></span>
-					<p class="texto-generico-24">Apoio a negócios coletivos<br class="desk"> <strong>(empreendedorismo coletivo)</strong> que lidam<br class="desk"> com produtos e/ou serviços nas áreas de:</p>
+					<p class="texto-generico-24">Apoio a negócios coletivos <strong>(empreendedorismo coletivo)</strong> que lidam com produtos e/ou serviços nas áreas de:</p>
 				</div>
 				<div class="wrapper-titulo-baixo dflt">
 					<div class="minibloco">
